@@ -1,16 +1,28 @@
 PODS:
-  - MapWrapperFrameworkSwift (0.1.0)
+  - BaiduMapKit (4.2.1)
+  - MapFramework (1.0.0):
+    - BaiduMapKit
+  - MapWrapperFrameworkSwift (1.0.0):
+    - MapFramework
 
 DEPENDENCIES:
   - MapWrapperFrameworkSwift (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BaiduMapKit
+  https://github.com/SourceChang/Specs.git:
+    - MapFramework
 
 EXTERNAL SOURCES:
   MapWrapperFrameworkSwift:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MapWrapperFrameworkSwift: 1102632bdd9501841d983f23c4bd0ed77e386357
+  BaiduMapKit: b7430823de488bb6d082e4e1d356dadf09d3edb2
+  MapFramework: d5929ddec4467f5e189ccb221f2655bac99e342d
+  MapWrapperFrameworkSwift: fdaac60224359b9f0b21e327817399630adcde42
 
-PODFILE CHECKSUM: b7291b9b25094255049216a9a77b7263c3a2614a
+PODFILE CHECKSUM: 291be1f97bfa96b4607c579416fa84e094f9aa0f
 
 COCOAPODS: 1.5.3

@@ -1,4 +1,4 @@
-framework module Pods_MapWrapperFrameworkSwift_Example {
+module Pods_MapWrapperFrameworkSwift_Example {
   umbrella header "Pods-MapWrapperFrameworkSwift_Example-umbrella.h"
 
   export *

@@ -7,173 +7,230 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		031B1D56466CA198B3F72F441FEE6DEC /* Pods-MapWrapperFrameworkSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2BCC36C04F9033EA2F32779D8CD9A4 /* Pods-MapWrapperFrameworkSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		102B2E23BAA386DDCBA26DE4E72B20B5 /* MapWrapperFrameworkSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E38F2B6F4477DFA10B15E8A6216F5B /* MapWrapperFrameworkSwift-dummy.m */; };
-		2C34F968E665F68BF58D58A9C8E6F15E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		5DE3800CF9340C015CC737B2B828CDD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		5FE2B9B5032E6893C2E88840111748F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		A87D989ACE63162A558BC566C81F0D6A /* MapWrapperFrameworkSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A421BD44CBF5062AF7D145349101C1A /* MapWrapperFrameworkSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B87386D2AD5E62E5A837B7C08F8B2106 /* Pods-MapWrapperFrameworkSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AAFA11183BDE44301C3A0C68C6AFD9 /* Pods-MapWrapperFrameworkSwift_Example-dummy.m */; };
-		C4565B392201A69F000A5F33 /* MapWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4565B382201A69F000A5F33 /* MapWrapperView.swift */; };
-		D8D0899E3225C564E0F8388D1464F18C /* Pods-MapWrapperFrameworkSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F423F21DA2FBFDFCDC189ADCBE026DE /* Pods-MapWrapperFrameworkSwift_Tests-dummy.m */; };
-		F0375D3A935380E1E7DC1DBC05A3AB89 /* Pods-MapWrapperFrameworkSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C53A9FB9287E3C5ADF898FC693DDF1 /* Pods-MapWrapperFrameworkSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DE2E0E1C9C10B88B09FCE350DBCDA26 /* MapFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64EFD72891D0D28D14E3324C5EEE991D /* MapFramework-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0FE7DF722C2150F7C41C8521B0F49F5B /* Pods-MapWrapperFrameworkSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2DB049834DD54B035A0BF605D66A8C /* Pods-MapWrapperFrameworkSwift_Example-dummy.m */; };
+		2B62E165E9C5DED3A273482E540E96D8 /* MapFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AF1A5C496A8A2E67006B96EB0A1F5 /* MapFramework-dummy.m */; };
+		5F47CA08E7087C64805C418B60BA56D0 /* Pods-MapWrapperFrameworkSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D415159C138AD50B0E5CC5B7FEB9C7FE /* Pods-MapWrapperFrameworkSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		717874642683AB233ED05A8766E782E8 /* SCMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E0E201CB00139A5C1FB51D50CA8BA2B /* SCMapView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8B19F6A1C01A96C7D610A76254DB55D8 /* MapWrapperFrameworkSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E18918BB4D77C723B5ACE65935CBBEE8 /* MapWrapperFrameworkSwift-dummy.m */; };
+		9A48B761AE840A5152721F982EFE51E8 /* MapWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B3916CA6767C839D89B4D2ACCF62D /* MapWrapperView.swift */; };
+		CA1B6A7796C9497C93752DB529E7E3BB /* SCMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59905BAC7D7E8BFC6E1009017FB56832 /* SCMapView.m */; };
+		D7FEA661CA4CFCCC61318572B38EB338 /* Pods-MapWrapperFrameworkSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F2603B8330890CB4C9C13130D58A0 /* Pods-MapWrapperFrameworkSwift_Tests-dummy.m */; };
+		EA7E9AFA9794CB1868961EBB3BE7B093 /* MapWrapperFrameworkSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1862E4E8BCB0B55043D3CB0CEB29D57E /* MapWrapperFrameworkSwift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1C614A2FEE214CB5E7FAE45488F49775 /* PBXContainerItemProxy */ = {
+		01A092F9B0E1B9058BF22BAB647F42A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 802E6C44BA555A568B76EADFA07DDAA4;
+			remoteGlobalIDString = 07B02820C137A12E2F62AF8476AC197F;
 			remoteInfo = "Pods-MapWrapperFrameworkSwift_Example";
 		};
-		B448698301D95F5BDC3AD984D5429B27 /* PBXContainerItemProxy */ = {
+		4E5D17A23FC67E1BBE1A043B6F82B3C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A0F1C99C7CF62B9B743B27E374FC0AA1;
+			remoteGlobalIDString = 9555258D76CC0C4B7BC9B79BB0BDC275;
+			remoteInfo = MapFramework;
+		};
+		9163D2ED3D8963C231B9CD18FCA0E87D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9555258D76CC0C4B7BC9B79BB0BDC275;
+			remoteInfo = MapFramework;
+		};
+		E4187AA39503E6CF5AD729A29D24A9A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1801D37263ACAAB21D011E8CD56E4EA0;
 			remoteInfo = MapWrapperFrameworkSwift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		071B73F6954A62BB66DA88299F20819B /* Pods-MapWrapperFrameworkSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MapWrapperFrameworkSwift_Example.modulemap"; sourceTree = "<group>"; };
-		0EB777AE570F022A9970A098ED4943FC /* Pods-MapWrapperFrameworkSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MapWrapperFrameworkSwift_Tests.modulemap"; sourceTree = "<group>"; };
-		1157E66F84297863FE7DA1740445266E /* Pods-MapWrapperFrameworkSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapWrapperFrameworkSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1A421BD44CBF5062AF7D145349101C1A /* MapWrapperFrameworkSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapWrapperFrameworkSwift-umbrella.h"; sourceTree = "<group>"; };
-		2382F73735C76EF56BD4ED69E3988579 /* Pods-MapWrapperFrameworkSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapWrapperFrameworkSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		25A939465179DA4CE20D7FA344830291 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2AEC158A74128BF1BB08BB18559A124B /* MapWrapperFrameworkSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapWrapperFrameworkSwift-prefix.pch"; sourceTree = "<group>"; };
-		30779815E8072D1E70DD9FFA957E49B5 /* Pods-MapWrapperFrameworkSwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapWrapperFrameworkSwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		350646CCDFD5B06CD1332F61EE962C4B /* Pods-MapWrapperFrameworkSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapWrapperFrameworkSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		381643D72734C05EF704405E875EB5D0 /* Pods-MapWrapperFrameworkSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapWrapperFrameworkSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
-		435EC6A2BD75097C950A44EF83DFAD9E /* Pods-MapWrapperFrameworkSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapWrapperFrameworkSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		466F41304AFC01886A055BED9DB3FA19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		46C53A9FB9287E3C5ADF898FC693DDF1 /* Pods-MapWrapperFrameworkSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MapWrapperFrameworkSwift_Example-umbrella.h"; sourceTree = "<group>"; };
-		4ECBBC4A9C06A23EF432DF97B588C682 /* Pods-MapWrapperFrameworkSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapWrapperFrameworkSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		51990FB94DC8463809CE7FA752012DD3 /* Pods-MapWrapperFrameworkSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapWrapperFrameworkSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		59538D55C84856FD8F22697F6490734E /* Pods-MapWrapperFrameworkSwift_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapWrapperFrameworkSwift_Tests-resources.sh"; sourceTree = "<group>"; };
-		62C1B25DEE54A12B1844ADEDC76BC99A /* Pods-MapWrapperFrameworkSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapWrapperFrameworkSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		674E5106105CE3F468910DDD0E529299 /* MapWrapperFrameworkSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapWrapperFrameworkSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		71974A91BCDA674284600FBD9A51FC8A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		74A151FA12F508680CF88681486A284C /* Pods_MapWrapperFrameworkSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapWrapperFrameworkSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		75AF2E219AEFB758FA75EB009665EF31 /* MapWrapperFrameworkSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MapWrapperFrameworkSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		78D097CF8F6FE502F8032A4FDE500A53 /* Pods-MapWrapperFrameworkSwift_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapWrapperFrameworkSwift_Example-resources.sh"; sourceTree = "<group>"; };
-		7F423F21DA2FBFDFCDC189ADCBE026DE /* Pods-MapWrapperFrameworkSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapWrapperFrameworkSwift_Tests-dummy.m"; sourceTree = "<group>"; };
-		84D5BF4E47CCC181066DE886C8C09ED6 /* MapWrapperFrameworkSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MapWrapperFrameworkSwift.modulemap; sourceTree = "<group>"; };
-		8F178C72BD12555498947A5483AFE330 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		902648C977166D7FF6B276AACBF221FD /* Pods_MapWrapperFrameworkSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapWrapperFrameworkSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93E38F2B6F4477DFA10B15E8A6216F5B /* MapWrapperFrameworkSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapWrapperFrameworkSwift-dummy.m"; sourceTree = "<group>"; };
-		9A8830AF2259FF5AE510B4D46DC30ADD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4D0F76197A9E62A8C8366DBFB9B3BA4 /* MapWrapperFrameworkSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapWrapperFrameworkSwift.xcconfig; sourceTree = "<group>"; };
-		C4565B382201A69F000A5F33 /* MapWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapWrapperView.swift; path = MapWrapperFrameworkSwift/Classes/MapWrapperView.swift; sourceTree = "<group>"; };
-		C748A0DF601445BD2E1138B475EBB40B /* Pods-MapWrapperFrameworkSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapWrapperFrameworkSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DB2BCC36C04F9033EA2F32779D8CD9A4 /* Pods-MapWrapperFrameworkSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MapWrapperFrameworkSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E4AAFA11183BDE44301C3A0C68C6AFD9 /* Pods-MapWrapperFrameworkSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapWrapperFrameworkSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		01286CC2F3F665F459B43B7794B6F36F /* Pods-MapWrapperFrameworkSwift_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapWrapperFrameworkSwift_Tests-resources.sh"; sourceTree = "<group>"; };
+		0411E34F247C15DD0DCD274DC1D43979 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = BaiduMapKit/thirdlibs/libssl.a; sourceTree = "<group>"; };
+		0FECA7ECBC81C3EF240A2C436FEE2D95 /* libMapFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMapFramework.a; path = libMapFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1834ECCDDFC0CD731F9085F04F24E31F /* MapWrapperFrameworkSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapWrapperFrameworkSwift-prefix.pch"; sourceTree = "<group>"; };
+		1862E4E8BCB0B55043D3CB0CEB29D57E /* MapWrapperFrameworkSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MapWrapperFrameworkSwift-umbrella.h"; path = "../../Headers/Public/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift-umbrella.h"; sourceTree = "<group>"; };
+		19007BFC4C43067574E58DD5923FFE8C /* Pods-MapWrapperFrameworkSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapWrapperFrameworkSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1AEA60078E96EA0F6449493ADCE8E095 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = BaiduMapKit/BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		2F2D7BFE53599B609613FA5B451400FC /* libPods-MapWrapperFrameworkSwift_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MapWrapperFrameworkSwift_Tests.a"; path = "libPods-MapWrapperFrameworkSwift_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DFF5C4F43AD784CFDB94B3A0F635033 /* Pods-MapWrapperFrameworkSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapWrapperFrameworkSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4000428E77E3A65E8C355275F621BE60 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Utils.framework; path = BaiduMapKit/BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		47389B91AA0221B25D5FDDFD4AF9A2BB /* Pods-MapWrapperFrameworkSwift_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapWrapperFrameworkSwift_Example-resources.sh"; sourceTree = "<group>"; };
+		4D6F2603B8330890CB4C9C13130D58A0 /* Pods-MapWrapperFrameworkSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapWrapperFrameworkSwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		4E69F16C16594D51A85B58C14DB5B8E7 /* MapFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapFramework.xcconfig; sourceTree = "<group>"; };
+		54754EDF7017DDBACCABD98B245CBED3 /* MapWrapperFrameworkSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MapWrapperFrameworkSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		547E1D2E762B875D1DCE90B82631848C /* MapWrapperFrameworkSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapWrapperFrameworkSwift.xcconfig; sourceTree = "<group>"; };
+		59905BAC7D7E8BFC6E1009017FB56832 /* SCMapView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCMapView.m; path = MapFramework/Classes/SCMapView.m; sourceTree = "<group>"; };
+		5BF4161568A7ED19543CC23F8DB79179 /* Pods-MapWrapperFrameworkSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapWrapperFrameworkSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5F3AF1A5C496A8A2E67006B96EB0A1F5 /* MapFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapFramework-dummy.m"; sourceTree = "<group>"; };
+		64EFD72891D0D28D14E3324C5EEE991D /* MapFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MapFramework-umbrella.h"; path = "../../Headers/Public/MapFramework/MapFramework-umbrella.h"; sourceTree = "<group>"; };
+		6A2DB049834DD54B035A0BF605D66A8C /* Pods-MapWrapperFrameworkSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapWrapperFrameworkSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		7E0E201CB00139A5C1FB51D50CA8BA2B /* SCMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCMapView.h; path = MapFramework/Classes/SCMapView.h; sourceTree = "<group>"; };
+		81C64F8FC321C82E712497AF5CCBB056 /* MapFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapFramework-prefix.pch"; sourceTree = "<group>"; };
+		83929B806950C7D269B1AC6A7027DB48 /* Pods-MapWrapperFrameworkSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapWrapperFrameworkSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		875FC6E0FE0A63662BD57422FD69CF69 /* Pods-MapWrapperFrameworkSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapWrapperFrameworkSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8A4C34ED4BDFC8C2AC2170E3C65BDBEF /* libMapWrapperFrameworkSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMapWrapperFrameworkSwift.a; path = libMapWrapperFrameworkSwift.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4F64B8A6D8756D4E4F185D48ABFEC5 /* Pods-MapWrapperFrameworkSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapWrapperFrameworkSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		956B66528F1259BB064E5BC55806FEE7 /* MapFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = MapFramework.modulemap; path = ../../Headers/Public/MapFramework/MapFramework.modulemap; sourceTree = "<group>"; };
+		AC2B6B3736C8294CF24351737E3A6FE3 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = BaiduMapKit/BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		BAD90FD04C93772D122F9C2DC98845F5 /* Pods-MapWrapperFrameworkSwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapWrapperFrameworkSwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BE6B865A1EF26E71588214EBFECA3D3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C3E04513C56DC81101D9DE615836E28C /* Pods-MapWrapperFrameworkSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapWrapperFrameworkSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C4EFD5E06674271D588B83A8488F1892 /* Pods-MapWrapperFrameworkSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapWrapperFrameworkSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D21372BA361E47A8E9463DC6724F6CDC /* MapWrapperFrameworkSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = MapWrapperFrameworkSwift.modulemap; path = ../../Headers/Public/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift.modulemap; sourceTree = "<group>"; };
+		D415159C138AD50B0E5CC5B7FEB9C7FE /* Pods-MapWrapperFrameworkSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MapWrapperFrameworkSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		D4790AF72A603B7B283F2A15CB459B28 /* libPods-MapWrapperFrameworkSwift_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MapWrapperFrameworkSwift_Example.a"; path = "libPods-MapWrapperFrameworkSwift_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7791AD3DD50F88146D04F097C16E912 /* mapapi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapKit/BaiduMapAPI_Map.framework/mapapi.bundle; sourceTree = "<group>"; };
+		DB0AE1C9F9D06D164E12135C9414B8F1 /* Pods-MapWrapperFrameworkSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapWrapperFrameworkSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E1835DC48F3BBBBB307EF746B74F7E82 /* Pods-MapWrapperFrameworkSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MapWrapperFrameworkSwift_Example.modulemap"; sourceTree = "<group>"; };
+		E18918BB4D77C723B5ACE65935CBBEE8 /* MapWrapperFrameworkSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapWrapperFrameworkSwift-dummy.m"; sourceTree = "<group>"; };
+		E5CA22D090A940EBC2B23B9C529A4A2C /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Cloud.framework; path = BaiduMapKit/BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
+		EFAB133133CF94B7A236219ACD368349 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F8404FA50DCC776CA71EC768A34E7B4D /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = BaiduMapKit/thirdlibs/libcrypto.a; sourceTree = "<group>"; };
+		FACFCB355881BA04DE7FF006C43D2C5E /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = BaiduMapKit/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		FF8B3916CA6767C839D89B4D2ACCF62D /* MapWrapperView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapWrapperView.swift; path = MapWrapperFrameworkSwift/Classes/MapWrapperView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1604168E715A7A2B5698446DBF46C910 /* Frameworks */ = {
+		5BD29F7092E9226FA9181F2104E950E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FE2B9B5032E6893C2E88840111748F4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BC43557830EE7123E1C9A1A79CF0810 /* Frameworks */ = {
+		896C7271CC1F7ABA326B52314B470E79 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C34F968E665F68BF58D58A9C8E6F15E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E296E2CD125569E2C0D4176CD37DE077 /* Frameworks */ = {
+		DB858BD6A5002E92FFFDF400FB6C4F34 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DE3800CF9340C015CC737B2B828CDD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEE89E491E248327BA526AAB0D9615A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01DB90A66F66EB5AD62CBE6AC178FA99 /* MapWrapperFrameworkSwift */ = {
+		06DC5F8F0240C69AC948CE21DC54D713 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4565B382201A69F000A5F33 /* MapWrapperView.swift */,
-				03E27CFB0E58D26B94958D891531F61C /* Pod */,
-				92291035CC24589115A1E4CD87C8D62B /* Support Files */,
+				0FECA7ECBC81C3EF240A2C436FEE2D95 /* libMapFramework.a */,
+				8A4C34ED4BDFC8C2AC2170E3C65BDBEF /* libMapWrapperFrameworkSwift.a */,
+				D4790AF72A603B7B283F2A15CB459B28 /* libPods-MapWrapperFrameworkSwift_Example.a */,
+				2F2D7BFE53599B609613FA5B451400FC /* libPods-MapWrapperFrameworkSwift_Tests.a */,
 			);
-			name = MapWrapperFrameworkSwift;
-			path = ../..;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		02B77BF87044E21C3E332BD82C35C63D /* Pods-MapWrapperFrameworkSwift_Example */ = {
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9A8830AF2259FF5AE510B4D46DC30ADD /* Info.plist */,
-				071B73F6954A62BB66DA88299F20819B /* Pods-MapWrapperFrameworkSwift_Example.modulemap */,
-				4ECBBC4A9C06A23EF432DF97B588C682 /* Pods-MapWrapperFrameworkSwift_Example-acknowledgements.markdown */,
-				1157E66F84297863FE7DA1740445266E /* Pods-MapWrapperFrameworkSwift_Example-acknowledgements.plist */,
-				E4AAFA11183BDE44301C3A0C68C6AFD9 /* Pods-MapWrapperFrameworkSwift_Example-dummy.m */,
-				381643D72734C05EF704405E875EB5D0 /* Pods-MapWrapperFrameworkSwift_Example-frameworks.sh */,
-				78D097CF8F6FE502F8032A4FDE500A53 /* Pods-MapWrapperFrameworkSwift_Example-resources.sh */,
-				46C53A9FB9287E3C5ADF898FC693DDF1 /* Pods-MapWrapperFrameworkSwift_Example-umbrella.h */,
-				435EC6A2BD75097C950A44EF83DFAD9E /* Pods-MapWrapperFrameworkSwift_Example.debug.xcconfig */,
-				62C1B25DEE54A12B1844ADEDC76BC99A /* Pods-MapWrapperFrameworkSwift_Example.release.xcconfig */,
 			);
-			name = "Pods-MapWrapperFrameworkSwift_Example";
-			path = "Target Support Files/Pods-MapWrapperFrameworkSwift_Example";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		03E27CFB0E58D26B94958D891531F61C /* Pod */ = {
+		15FBD824AFFF0E9A2CD193B887F514A0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				466F41304AFC01886A055BED9DB3FA19 /* LICENSE */,
-				75AF2E219AEFB758FA75EB009665EF31 /* MapWrapperFrameworkSwift.podspec */,
-				71974A91BCDA674284600FBD9A51FC8A /* README.md */,
+				D7791AD3DD50F88146D04F097C16E912 /* mapapi.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		19F54AD39AED9CB65F16E554CD3011F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46726821BE07A3F9340F31CD0B85C79F /* BaiduMapKit */,
+				A714FD8AE33E77186633B44131921A63 /* MapFramework */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		39BCF4EF3215A574F0667B135A034742 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EFAB133133CF94B7A236219ACD368349 /* LICENSE */,
+				54754EDF7017DDBACCABD98B245CBED3 /* MapWrapperFrameworkSwift.podspec */,
+				BE6B865A1EF26E71588214EBFECA3D3A /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		06B8D1FD4F9EF4AEC024F894F95A74D8 /* Pods-MapWrapperFrameworkSwift_Tests */ = {
+		44CF05674722561DC9782F5CD53FF4BA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8F178C72BD12555498947A5483AFE330 /* Info.plist */,
-				0EB777AE570F022A9970A098ED4943FC /* Pods-MapWrapperFrameworkSwift_Tests.modulemap */,
-				2382F73735C76EF56BD4ED69E3988579 /* Pods-MapWrapperFrameworkSwift_Tests-acknowledgements.markdown */,
-				350646CCDFD5B06CD1332F61EE962C4B /* Pods-MapWrapperFrameworkSwift_Tests-acknowledgements.plist */,
-				7F423F21DA2FBFDFCDC189ADCBE026DE /* Pods-MapWrapperFrameworkSwift_Tests-dummy.m */,
-				30779815E8072D1E70DD9FFA957E49B5 /* Pods-MapWrapperFrameworkSwift_Tests-frameworks.sh */,
-				59538D55C84856FD8F22697F6490734E /* Pods-MapWrapperFrameworkSwift_Tests-resources.sh */,
-				DB2BCC36C04F9033EA2F32779D8CD9A4 /* Pods-MapWrapperFrameworkSwift_Tests-umbrella.h */,
-				51990FB94DC8463809CE7FA752012DD3 /* Pods-MapWrapperFrameworkSwift_Tests.debug.xcconfig */,
-				C748A0DF601445BD2E1138B475EBB40B /* Pods-MapWrapperFrameworkSwift_Tests.release.xcconfig */,
+				D21372BA361E47A8E9463DC6724F6CDC /* MapWrapperFrameworkSwift.modulemap */,
+				547E1D2E762B875D1DCE90B82631848C /* MapWrapperFrameworkSwift.xcconfig */,
+				E18918BB4D77C723B5ACE65935CBBEE8 /* MapWrapperFrameworkSwift-dummy.m */,
+				1834ECCDDFC0CD731F9085F04F24E31F /* MapWrapperFrameworkSwift-prefix.pch */,
+				1862E4E8BCB0B55043D3CB0CEB29D57E /* MapWrapperFrameworkSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MapWrapperFrameworkSwift";
+			sourceTree = "<group>";
+		};
+		46726821BE07A3F9340F31CD0B85C79F /* BaiduMapKit */ = {
+			isa = PBXGroup;
+			children = (
+				EA40DDE2A695F2DC5383DF642D6EBB7D /* Frameworks */,
+				15FBD824AFFF0E9A2CD193B887F514A0 /* Resources */,
+			);
+			name = BaiduMapKit;
+			path = BaiduMapKit;
+			sourceTree = "<group>";
+		};
+		5B5293D78A7FD6652B0F6F88504538AE /* Pods-MapWrapperFrameworkSwift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C4EFD5E06674271D588B83A8488F1892 /* Pods-MapWrapperFrameworkSwift_Tests-acknowledgements.markdown */,
+				C3E04513C56DC81101D9DE615836E28C /* Pods-MapWrapperFrameworkSwift_Tests-acknowledgements.plist */,
+				4D6F2603B8330890CB4C9C13130D58A0 /* Pods-MapWrapperFrameworkSwift_Tests-dummy.m */,
+				BAD90FD04C93772D122F9C2DC98845F5 /* Pods-MapWrapperFrameworkSwift_Tests-frameworks.sh */,
+				01286CC2F3F665F459B43B7794B6F36F /* Pods-MapWrapperFrameworkSwift_Tests-resources.sh */,
+				19007BFC4C43067574E58DD5923FFE8C /* Pods-MapWrapperFrameworkSwift_Tests.debug.xcconfig */,
+				DB0AE1C9F9D06D164E12135C9414B8F1 /* Pods-MapWrapperFrameworkSwift_Tests.release.xcconfig */,
 			);
 			name = "Pods-MapWrapperFrameworkSwift_Tests";
 			path = "Target Support Files/Pods-MapWrapperFrameworkSwift_Tests";
 			sourceTree = "<group>";
 		};
-		3711E33D13221640F1F77AB5FA0205EF /* Targets Support Files */ = {
+		68D6ED406E2EDDF023ADDA815BC34C80 /* MapWrapperFrameworkSwift */ = {
 			isa = PBXGroup;
 			children = (
-				02B77BF87044E21C3E332BD82C35C63D /* Pods-MapWrapperFrameworkSwift_Example */,
-				06B8D1FD4F9EF4AEC024F894F95A74D8 /* Pods-MapWrapperFrameworkSwift_Tests */,
+				FF8B3916CA6767C839D89B4D2ACCF62D /* MapWrapperView.swift */,
+				39BCF4EF3215A574F0667B135A034742 /* Pod */,
+				44CF05674722561DC9782F5CD53FF4BA /* Support Files */,
 			);
-			name = "Targets Support Files";
+			name = MapWrapperFrameworkSwift;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+		7020DF50C5F0C1FFE01D891C56D5F9D3 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+				CC4613EA0F0408D47F46E4717A480D99 /* Pods-MapWrapperFrameworkSwift_Example */,
+				5B5293D78A7FD6652B0F6F88504538AE /* Pods-MapWrapperFrameworkSwift_Tests */,
 			);
-			name = iOS;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -181,137 +238,186 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				D96C184920F7D85EE00B73FA72386503 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				816D3DE02155D6DCA2E91FA436A8C52C /* Products */,
-				3711E33D13221640F1F77AB5FA0205EF /* Targets Support Files */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				19F54AD39AED9CB65F16E554CD3011F9 /* Pods */,
+				06DC5F8F0240C69AC948CE21DC54D713 /* Products */,
+				7020DF50C5F0C1FFE01D891C56D5F9D3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		816D3DE02155D6DCA2E91FA436A8C52C /* Products */ = {
+		A2938BF312DD0BD60B501B8499ECAFEC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				674E5106105CE3F468910DDD0E529299 /* MapWrapperFrameworkSwift.framework */,
-				74A151FA12F508680CF88681486A284C /* Pods_MapWrapperFrameworkSwift_Example.framework */,
-				902648C977166D7FF6B276AACBF221FD /* Pods_MapWrapperFrameworkSwift_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		92291035CC24589115A1E4CD87C8D62B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				25A939465179DA4CE20D7FA344830291 /* Info.plist */,
-				84D5BF4E47CCC181066DE886C8C09ED6 /* MapWrapperFrameworkSwift.modulemap */,
-				B4D0F76197A9E62A8C8366DBFB9B3BA4 /* MapWrapperFrameworkSwift.xcconfig */,
-				93E38F2B6F4477DFA10B15E8A6216F5B /* MapWrapperFrameworkSwift-dummy.m */,
-				2AEC158A74128BF1BB08BB18559A124B /* MapWrapperFrameworkSwift-prefix.pch */,
-				1A421BD44CBF5062AF7D145349101C1A /* MapWrapperFrameworkSwift-umbrella.h */,
+				956B66528F1259BB064E5BC55806FEE7 /* MapFramework.modulemap */,
+				4E69F16C16594D51A85B58C14DB5B8E7 /* MapFramework.xcconfig */,
+				5F3AF1A5C496A8A2E67006B96EB0A1F5 /* MapFramework-dummy.m */,
+				81C64F8FC321C82E712497AF5CCBB056 /* MapFramework-prefix.pch */,
+				64EFD72891D0D28D14E3324C5EEE991D /* MapFramework-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MapWrapperFrameworkSwift";
+			path = "../Target Support Files/MapFramework";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		A714FD8AE33E77186633B44131921A63 /* MapFramework */ = {
 			isa = PBXGroup;
 			children = (
-				44D5347904CF754D6785B84253F2574A /* iOS */,
+				7E0E201CB00139A5C1FB51D50CA8BA2B /* SCMapView.h */,
+				59905BAC7D7E8BFC6E1009017FB56832 /* SCMapView.m */,
+				A2938BF312DD0BD60B501B8499ECAFEC /* Support Files */,
 			);
-			name = Frameworks;
+			name = MapFramework;
+			path = MapFramework;
+			sourceTree = "<group>";
+		};
+		CC4613EA0F0408D47F46E4717A480D99 /* Pods-MapWrapperFrameworkSwift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E1835DC48F3BBBBB307EF746B74F7E82 /* Pods-MapWrapperFrameworkSwift_Example.modulemap */,
+				875FC6E0FE0A63662BD57422FD69CF69 /* Pods-MapWrapperFrameworkSwift_Example-acknowledgements.markdown */,
+				3DFF5C4F43AD784CFDB94B3A0F635033 /* Pods-MapWrapperFrameworkSwift_Example-acknowledgements.plist */,
+				6A2DB049834DD54B035A0BF605D66A8C /* Pods-MapWrapperFrameworkSwift_Example-dummy.m */,
+				8C4F64B8A6D8756D4E4F185D48ABFEC5 /* Pods-MapWrapperFrameworkSwift_Example-frameworks.sh */,
+				47389B91AA0221B25D5FDDFD4AF9A2BB /* Pods-MapWrapperFrameworkSwift_Example-resources.sh */,
+				D415159C138AD50B0E5CC5B7FEB9C7FE /* Pods-MapWrapperFrameworkSwift_Example-umbrella.h */,
+				5BF4161568A7ED19543CC23F8DB79179 /* Pods-MapWrapperFrameworkSwift_Example.debug.xcconfig */,
+				83929B806950C7D269B1AC6A7027DB48 /* Pods-MapWrapperFrameworkSwift_Example.release.xcconfig */,
+			);
+			name = "Pods-MapWrapperFrameworkSwift_Example";
+			path = "Target Support Files/Pods-MapWrapperFrameworkSwift_Example";
 			sourceTree = "<group>";
 		};
 		D96C184920F7D85EE00B73FA72386503 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				01DB90A66F66EB5AD62CBE6AC178FA99 /* MapWrapperFrameworkSwift */,
+				68D6ED406E2EDDF023ADDA815BC34C80 /* MapWrapperFrameworkSwift */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EA40DDE2A695F2DC5383DF642D6EBB7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FACFCB355881BA04DE7FF006C43D2C5E /* BaiduMapAPI_Base.framework */,
+				E5CA22D090A940EBC2B23B9C529A4A2C /* BaiduMapAPI_Cloud.framework */,
+				1AEA60078E96EA0F6449493ADCE8E095 /* BaiduMapAPI_Map.framework */,
+				AC2B6B3736C8294CF24351737E3A6FE3 /* BaiduMapAPI_Search.framework */,
+				4000428E77E3A65E8C355275F621BE60 /* BaiduMapAPI_Utils.framework */,
+				F8404FA50DCC776CA71EC768A34E7B4D /* libcrypto.a */,
+				0411E34F247C15DD0DCD274DC1D43979 /* libssl.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		003F68CBB87901A0E4928CF83EDC8464 /* Headers */ = {
+		213ADCF5798572FCAC4911CE685A125D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				031B1D56466CA198B3F72F441FEE6DEC /* Pods-MapWrapperFrameworkSwift_Tests-umbrella.h in Headers */,
+				0DE2E0E1C9C10B88B09FCE350DBCDA26 /* MapFramework-umbrella.h in Headers */,
+				717874642683AB233ED05A8766E782E8 /* SCMapView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A85DAB5BAB9EB0FBCFFC6EE11E1CBCC0 /* Headers */ = {
+		344C49BCEB737C2A01C280E51BF880A1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A87D989ACE63162A558BC566C81F0D6A /* MapWrapperFrameworkSwift-umbrella.h in Headers */,
+				EA7E9AFA9794CB1868961EBB3BE7B093 /* MapWrapperFrameworkSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4BCCEF08A12C717133A08C55276D154 /* Headers */ = {
+		70BEAF9AD6BAEDB3B5F1AA7D349F0411 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0375D3A935380E1E7DC1DBC05A3AB89 /* Pods-MapWrapperFrameworkSwift_Example-umbrella.h in Headers */,
+				5F47CA08E7087C64805C418B60BA56D0 /* Pods-MapWrapperFrameworkSwift_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895FCBC2CC93F1E025A3DFF8E702DE2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		802E6C44BA555A568B76EADFA07DDAA4 /* Pods-MapWrapperFrameworkSwift_Example */ = {
+		07B02820C137A12E2F62AF8476AC197F /* Pods-MapWrapperFrameworkSwift_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91BB0C3BB48A90682BB398226D896989 /* Build configuration list for PBXNativeTarget "Pods-MapWrapperFrameworkSwift_Example" */;
+			buildConfigurationList = 157D12F05D34B062BCEC15943A2D7E58 /* Build configuration list for PBXNativeTarget "Pods-MapWrapperFrameworkSwift_Example" */;
 			buildPhases = (
-				C4BCCEF08A12C717133A08C55276D154 /* Headers */,
-				DD6E49C2BD837599F8FC5BDBEEB966FF /* Sources */,
-				1604168E715A7A2B5698446DBF46C910 /* Frameworks */,
-				A97EB6BFA6E98B6449FBF3CCB8B42067 /* Resources */,
+				70BEAF9AD6BAEDB3B5F1AA7D349F0411 /* Headers */,
+				ED7ADE0138986655CDCA24561B5B3170 /* Sources */,
+				896C7271CC1F7ABA326B52314B470E79 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				258DCBA290620FB5774C04A4AC57AA45 /* PBXTargetDependency */,
+				6FC5142831D091B769AA166A0A68CFAB /* PBXTargetDependency */,
+				D00CD78C221C61493A05AD4260D28CDF /* PBXTargetDependency */,
 			);
 			name = "Pods-MapWrapperFrameworkSwift_Example";
 			productName = "Pods-MapWrapperFrameworkSwift_Example";
-			productReference = 74A151FA12F508680CF88681486A284C /* Pods_MapWrapperFrameworkSwift_Example.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = D4790AF72A603B7B283F2A15CB459B28 /* libPods-MapWrapperFrameworkSwift_Example.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		A0F1C99C7CF62B9B743B27E374FC0AA1 /* MapWrapperFrameworkSwift */ = {
+		1801D37263ACAAB21D011E8CD56E4EA0 /* MapWrapperFrameworkSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AEFCDB80D4550DD08DB7104BF922BB84 /* Build configuration list for PBXNativeTarget "MapWrapperFrameworkSwift" */;
+			buildConfigurationList = D1356A43741C050EA0F8262CDAC7DFFF /* Build configuration list for PBXNativeTarget "MapWrapperFrameworkSwift" */;
 			buildPhases = (
-				A85DAB5BAB9EB0FBCFFC6EE11E1CBCC0 /* Headers */,
-				F84B3F19EBEFC91434CCDCC5C6A728ED /* Sources */,
-				E296E2CD125569E2C0D4176CD37DE077 /* Frameworks */,
-				DB92513450E1C5D49A059FF237C7DE1B /* Resources */,
+				344C49BCEB737C2A01C280E51BF880A1 /* Headers */,
+				8900B2ABDAFEEA592B6CA235835FCFB7 /* Sources */,
+				DDEE89E491E248327BA526AAB0D9615A /* Frameworks */,
+				8448C36CB94736A1CCBE4A0A6616EDD1 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0FC6CE79F5B8A3704F493DC23A613A4E /* PBXTargetDependency */,
 			);
 			name = MapWrapperFrameworkSwift;
 			productName = MapWrapperFrameworkSwift;
-			productReference = 674E5106105CE3F468910DDD0E529299 /* MapWrapperFrameworkSwift.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 8A4C34ED4BDFC8C2AC2170E3C65BDBEF /* libMapWrapperFrameworkSwift.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		B4D92AA8769BD9A8B4DEEE374F929E28 /* Pods-MapWrapperFrameworkSwift_Tests */ = {
+		9555258D76CC0C4B7BC9B79BB0BDC275 /* MapFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1272D5F109A1B34403262A22099C11E /* Build configuration list for PBXNativeTarget "Pods-MapWrapperFrameworkSwift_Tests" */;
+			buildConfigurationList = ACB75943AEDDD5EFAE67ACE4C8898EA5 /* Build configuration list for PBXNativeTarget "MapFramework" */;
 			buildPhases = (
-				003F68CBB87901A0E4928CF83EDC8464 /* Headers */,
-				933776B59547AF13F6E1CC0320E925FB /* Sources */,
-				5BC43557830EE7123E1C9A1A79CF0810 /* Frameworks */,
-				85C9071BA07068187438F554FEEB4D83 /* Resources */,
+				213ADCF5798572FCAC4911CE685A125D /* Headers */,
+				856FE44526410A7E43F112AE0633C5FB /* Sources */,
+				5BD29F7092E9226FA9181F2104E950E7 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A245645FF56A806DE07E24A347AF717B /* PBXTargetDependency */,
+			);
+			name = MapFramework;
+			productName = MapFramework;
+			productReference = 0FECA7ECBC81C3EF240A2C436FEE2D95 /* libMapFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B8B5B6D358E0DF0BE7A62E9AC4E921AE /* Pods-MapWrapperFrameworkSwift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B75692E015178F034BE673D2E40FD46 /* Build configuration list for PBXNativeTarget "Pods-MapWrapperFrameworkSwift_Tests" */;
+			buildPhases = (
+				895FCBC2CC93F1E025A3DFF8E702DE2C /* Headers */,
+				5228476D6C8D3232E261A0303B6DF63D /* Sources */,
+				DB858BD6A5002E92FFFDF400FB6C4F34 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FB3B74A62D90656F851BCDBFF6EE0CA /* PBXTargetDependency */,
 			);
 			name = "Pods-MapWrapperFrameworkSwift_Tests";
 			productName = "Pods-MapWrapperFrameworkSwift_Tests";
-			productReference = 902648C977166D7FF6B276AACBF221FD /* Pods_MapWrapperFrameworkSwift_Tests.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 2F2D7BFE53599B609613FA5B451400FC /* libPods-MapWrapperFrameworkSwift_Tests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -321,11 +427,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					A0F1C99C7CF62B9B743B27E374FC0AA1 = {
-						LastSwiftMigration = 1010;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -335,150 +436,132 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 816D3DE02155D6DCA2E91FA436A8C52C /* Products */;
+			productRefGroup = 06DC5F8F0240C69AC948CE21DC54D713 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A0F1C99C7CF62B9B743B27E374FC0AA1 /* MapWrapperFrameworkSwift */,
-				802E6C44BA555A568B76EADFA07DDAA4 /* Pods-MapWrapperFrameworkSwift_Example */,
-				B4D92AA8769BD9A8B4DEEE374F929E28 /* Pods-MapWrapperFrameworkSwift_Tests */,
+				9555258D76CC0C4B7BC9B79BB0BDC275 /* MapFramework */,
+				1801D37263ACAAB21D011E8CD56E4EA0 /* MapWrapperFrameworkSwift */,
+				07B02820C137A12E2F62AF8476AC197F /* Pods-MapWrapperFrameworkSwift_Example */,
+				B8B5B6D358E0DF0BE7A62E9AC4E921AE /* Pods-MapWrapperFrameworkSwift_Tests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		85C9071BA07068187438F554FEEB4D83 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* Begin PBXShellScriptBuildPhase section */
+		8448C36CB94736A1CCBE4A0A6616EDD1 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A97EB6BFA6E98B6449FBF3CCB8B42067 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift.modulemap",
+				"${PODS_ROOT}/Headers/Public/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/MapWrapperFrameworkSwift-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
 		};
-		DB92513450E1C5D49A059FF237C7DE1B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		933776B59547AF13F6E1CC0320E925FB /* Sources */ = {
+		5228476D6C8D3232E261A0303B6DF63D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8D0899E3225C564E0F8388D1464F18C /* Pods-MapWrapperFrameworkSwift_Tests-dummy.m in Sources */,
+				D7FEA661CA4CFCCC61318572B38EB338 /* Pods-MapWrapperFrameworkSwift_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD6E49C2BD837599F8FC5BDBEEB966FF /* Sources */ = {
+		856FE44526410A7E43F112AE0633C5FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B87386D2AD5E62E5A837B7C08F8B2106 /* Pods-MapWrapperFrameworkSwift_Example-dummy.m in Sources */,
+				2B62E165E9C5DED3A273482E540E96D8 /* MapFramework-dummy.m in Sources */,
+				CA1B6A7796C9497C93752DB529E7E3BB /* SCMapView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F84B3F19EBEFC91434CCDCC5C6A728ED /* Sources */ = {
+		8900B2ABDAFEEA592B6CA235835FCFB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				102B2E23BAA386DDCBA26DE4E72B20B5 /* MapWrapperFrameworkSwift-dummy.m in Sources */,
-				C4565B392201A69F000A5F33 /* MapWrapperView.swift in Sources */,
+				8B19F6A1C01A96C7D610A76254DB55D8 /* MapWrapperFrameworkSwift-dummy.m in Sources */,
+				9A48B761AE840A5152721F982EFE51E8 /* MapWrapperView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7ADE0138986655CDCA24561B5B3170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FE7DF722C2150F7C41C8521B0F49F5B /* Pods-MapWrapperFrameworkSwift_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		258DCBA290620FB5774C04A4AC57AA45 /* PBXTargetDependency */ = {
+		0FC6CE79F5B8A3704F493DC23A613A4E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MapWrapperFrameworkSwift;
-			target = A0F1C99C7CF62B9B743B27E374FC0AA1 /* MapWrapperFrameworkSwift */;
-			targetProxy = B448698301D95F5BDC3AD984D5429B27 /* PBXContainerItemProxy */;
+			name = MapFramework;
+			target = 9555258D76CC0C4B7BC9B79BB0BDC275 /* MapFramework */;
+			targetProxy = 9163D2ED3D8963C231B9CD18FCA0E87D /* PBXContainerItemProxy */;
 		};
-		A245645FF56A806DE07E24A347AF717B /* PBXTargetDependency */ = {
+		5FB3B74A62D90656F851BCDBFF6EE0CA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MapWrapperFrameworkSwift_Example";
-			target = 802E6C44BA555A568B76EADFA07DDAA4 /* Pods-MapWrapperFrameworkSwift_Example */;
-			targetProxy = 1C614A2FEE214CB5E7FAE45488F49775 /* PBXContainerItemProxy */;
+			target = 07B02820C137A12E2F62AF8476AC197F /* Pods-MapWrapperFrameworkSwift_Example */;
+			targetProxy = 01A092F9B0E1B9058BF22BAB647F42A7 /* PBXContainerItemProxy */;
+		};
+		6FC5142831D091B769AA166A0A68CFAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MapFramework;
+			target = 9555258D76CC0C4B7BC9B79BB0BDC275 /* MapFramework */;
+			targetProxy = 4E5D17A23FC67E1BBE1A043B6F82B3C1 /* PBXContainerItemProxy */;
+		};
+		D00CD78C221C61493A05AD4260D28CDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MapWrapperFrameworkSwift;
+			target = 1801D37263ACAAB21D011E8CD56E4EA0 /* MapWrapperFrameworkSwift */;
+			targetProxy = E4187AA39503E6CF5AD729A29D24A9A7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2D8F977A8FE0EAAE18C165921576DAA8 /* Debug */ = {
+		29B29795733C82C8BBB6C02BD18A517F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4D0F76197A9E62A8C8366DBFB9B3BA4 /* MapWrapperFrameworkSwift.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MapWrapperFrameworkSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift.modulemap";
-				PRODUCT_MODULE_NAME = MapWrapperFrameworkSwift;
-				PRODUCT_NAME = MapWrapperFrameworkSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4387C1F9D285282F4633B9A0362FE139 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51990FB94DC8463809CE7FA752012DD3 /* Pods-MapWrapperFrameworkSwift_Tests.debug.xcconfig */;
+			baseConfigurationReference = DB0AE1C9F9D06D164E12135C9414B8F1 /* Pods-MapWrapperFrameworkSwift_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MapWrapperFrameworkSwift_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MapWrapperFrameworkSwift_Tests/Pods-MapWrapperFrameworkSwift_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		50646285DD9FD95AF390BDA3FB1948EA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -601,149 +684,202 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		7BC8D4825D75ED19CA35667F8B5F0198 /* Debug */ = {
+		681CE81B2FADF971769D9C1A83104DC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 435EC6A2BD75097C950A44EF83DFAD9E /* Pods-MapWrapperFrameworkSwift_Example.debug.xcconfig */;
+			baseConfigurationReference = 4E69F16C16594D51A85B58C14DB5B8E7 /* MapFramework.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MapWrapperFrameworkSwift_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MapWrapperFrameworkSwift_Example/Pods-MapWrapperFrameworkSwift_Example.modulemap";
+				GCC_PREFIX_HEADER = "Target Support Files/MapFramework/MapFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/MapFramework/MapFramework.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MapFramework;
+				PRODUCT_NAME = MapFramework;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		8076B56D7C5939ABCB6586F086CB9ABF /* Release */ = {
+		6FA4BE539D708D1BE303EDF09EDA1019 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C748A0DF601445BD2E1138B475EBB40B /* Pods-MapWrapperFrameworkSwift_Tests.release.xcconfig */;
+			baseConfigurationReference = 5BF4161568A7ED19543CC23F8DB79179 /* Pods-MapWrapperFrameworkSwift_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MapWrapperFrameworkSwift_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MapWrapperFrameworkSwift_Tests/Pods-MapWrapperFrameworkSwift_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8386760CAB5F809347C496285727C63D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62C1B25DEE54A12B1844ADEDC76BC99A /* Pods-MapWrapperFrameworkSwift_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MapWrapperFrameworkSwift_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MapWrapperFrameworkSwift_Example/Pods-MapWrapperFrameworkSwift_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		C88DB84D1C8B68F594AA793DC0C229D3 /* Release */ = {
+		7765C048A6C5387E2774CB12DE803B15 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4D0F76197A9E62A8C8366DBFB9B3BA4 /* MapWrapperFrameworkSwift.xcconfig */;
+			baseConfigurationReference = 547E1D2E762B875D1DCE90B82631848C /* MapWrapperFrameworkSwift.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MapWrapperFrameworkSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift.modulemap";
+				MODULEMAP_FILE = Headers/Public/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = MapWrapperFrameworkSwift;
 				PRODUCT_NAME = MapWrapperFrameworkSwift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B726DBD8412FB017198D60C024EBB7BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19007BFC4C43067574E58DD5923FFE8C /* Pods-MapWrapperFrameworkSwift_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C128A1CB850FC6378B4C0CEACFC1C409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83929B806950C7D269B1AC6A7027DB48 /* Pods-MapWrapperFrameworkSwift_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MapWrapperFrameworkSwift_Example/Pods-MapWrapperFrameworkSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D06940DC4D7B19C04A5625FF96A20E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 547E1D2E762B875D1DCE90B82631848C /* MapWrapperFrameworkSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MapWrapperFrameworkSwift;
+				PRODUCT_NAME = MapWrapperFrameworkSwift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9CA8D178BFF6641071591E6DBC9C77B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E69F16C16594D51A85B58C14DB5B8E7 /* MapFramework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MapFramework/MapFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/MapFramework/MapFramework.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MapFramework;
+				PRODUCT_NAME = MapFramework;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		157D12F05D34B062BCEC15943A2D7E58 /* Build configuration list for PBXNativeTarget "Pods-MapWrapperFrameworkSwift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA4BE539D708D1BE303EDF09EDA1019 /* Debug */,
+				C128A1CB850FC6378B4C0CEACFC1C409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B75692E015178F034BE673D2E40FD46 /* Build configuration list for PBXNativeTarget "Pods-MapWrapperFrameworkSwift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B726DBD8412FB017198D60C024EBB7BC /* Debug */,
+				29B29795733C82C8BBB6C02BD18A517F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -753,29 +889,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91BB0C3BB48A90682BB398226D896989 /* Build configuration list for PBXNativeTarget "Pods-MapWrapperFrameworkSwift_Example" */ = {
+		ACB75943AEDDD5EFAE67ACE4C8898EA5 /* Build configuration list for PBXNativeTarget "MapFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7BC8D4825D75ED19CA35667F8B5F0198 /* Debug */,
-				8386760CAB5F809347C496285727C63D /* Release */,
+				681CE81B2FADF971769D9C1A83104DC6 /* Debug */,
+				F9CA8D178BFF6641071591E6DBC9C77B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AEFCDB80D4550DD08DB7104BF922BB84 /* Build configuration list for PBXNativeTarget "MapWrapperFrameworkSwift" */ = {
+		D1356A43741C050EA0F8262CDAC7DFFF /* Build configuration list for PBXNativeTarget "MapWrapperFrameworkSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D8F977A8FE0EAAE18C165921576DAA8 /* Debug */,
-				C88DB84D1C8B68F594AA793DC0C229D3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F1272D5F109A1B34403262A22099C11E /* Build configuration list for PBXNativeTarget "Pods-MapWrapperFrameworkSwift_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4387C1F9D285282F4633B9A0362FE139 /* Debug */,
-				8076B56D7C5939ABCB6586F086CB9ABF /* Release */,
+				D06940DC4D7B19C04A5625FF96A20E28 /* Debug */,
+				7765C048A6C5387E2774CB12DE803B15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

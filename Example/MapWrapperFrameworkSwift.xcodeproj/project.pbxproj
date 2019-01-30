@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030195D0CE6BDD5AE773D635 /* Pods_MapWrapperFrameworkSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6191C28F3CE9B6C55FAF3A5F /* Pods_MapWrapperFrameworkSwift_Example.framework */; };
-		1B0957C906EE862A5AB596ED /* Pods_MapWrapperFrameworkSwift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035EF9DA901748698B81EA3D /* Pods_MapWrapperFrameworkSwift_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		9415190050F7BFD8978970C5 /* libPods-MapWrapperFrameworkSwift_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D44328B8EB0C2A2CF4D70F41 /* libPods-MapWrapperFrameworkSwift_Example.a */; };
+		DBF200B33518D7D9D275B131 /* libPods-MapWrapperFrameworkSwift_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A6FEC0CF00FECB6AB90FF6 /* libPods-MapWrapperFrameworkSwift_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		035EF9DA901748698B81EA3D /* Pods_MapWrapperFrameworkSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapWrapperFrameworkSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		315866B26DC9D586E0834F08 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4BD218DA61C8691B741D474D /* Pods-MapWrapperFrameworkSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapWrapperFrameworkSwift_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapWrapperFrameworkSwift_Example/Pods-MapWrapperFrameworkSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4FED3B516099E4E4CD98FC86 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -44,8 +43,9 @@
 		607FACE51AFB9204008FA782 /* MapWrapperFrameworkSwift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapWrapperFrameworkSwift_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6191C28F3CE9B6C55FAF3A5F /* Pods_MapWrapperFrameworkSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapWrapperFrameworkSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F408C7542C61357A116D291 /* MapWrapperFrameworkSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MapWrapperFrameworkSwift.podspec; path = ../MapWrapperFrameworkSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D44328B8EB0C2A2CF4D70F41 /* libPods-MapWrapperFrameworkSwift_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MapWrapperFrameworkSwift_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A6FEC0CF00FECB6AB90FF6 /* libPods-MapWrapperFrameworkSwift_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MapWrapperFrameworkSwift_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0D69B745A8ED504BE2B4E1 /* Pods-MapWrapperFrameworkSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapWrapperFrameworkSwift_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapWrapperFrameworkSwift_Example/Pods-MapWrapperFrameworkSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				030195D0CE6BDD5AE773D635 /* Pods_MapWrapperFrameworkSwift_Example.framework in Frameworks */,
+				9415190050F7BFD8978970C5 /* libPods-MapWrapperFrameworkSwift_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B0957C906EE862A5AB596ED /* Pods_MapWrapperFrameworkSwift_Tests.framework in Frameworks */,
+				DBF200B33518D7D9D275B131 /* libPods-MapWrapperFrameworkSwift_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,8 +153,8 @@
 		B8A418C5F58E5EBB75F4521C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6191C28F3CE9B6C55FAF3A5F /* Pods_MapWrapperFrameworkSwift_Example.framework */,
-				035EF9DA901748698B81EA3D /* Pods_MapWrapperFrameworkSwift_Tests.framework */,
+				D44328B8EB0C2A2CF4D70F41 /* libPods-MapWrapperFrameworkSwift_Example.a */,
+				D7A6FEC0CF00FECB6AB90FF6 /* libPods-MapWrapperFrameworkSwift_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,7 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				74332A0CB289FE5F9A5E980E /* [CP] Embed Pods Frameworks */,
+				D0B97C4951FBFCA14222A7D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = ZXUM93UMJ2;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = ZXUM93UMJ2;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -283,28 +285,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		74332A0CB289FE5F9A5E980E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MapWrapperFrameworkSwift_Example/Pods-MapWrapperFrameworkSwift_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapWrapperFrameworkSwift.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapWrapperFrameworkSwift_Example/Pods-MapWrapperFrameworkSwift_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A595D312FF969A7B5CB881F6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -325,6 +305,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0B97C4951FBFCA14222A7D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MapWrapperFrameworkSwift_Example/Pods-MapWrapperFrameworkSwift_Example-resources.sh",
+				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/mapapi.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mapapi.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapWrapperFrameworkSwift_Example/Pods-MapWrapperFrameworkSwift_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -481,6 +483,7 @@
 			baseConfigurationReference = FB0D69B745A8ED504BE2B4E1 /* Pods-MapWrapperFrameworkSwift_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZXUM93UMJ2;
 				INFOPLIST_FILE = MapWrapperFrameworkSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -496,6 +499,7 @@
 			baseConfigurationReference = 4BD218DA61C8691B741D474D /* Pods-MapWrapperFrameworkSwift_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZXUM93UMJ2;
 				INFOPLIST_FILE = MapWrapperFrameworkSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B1DD4F490DDF67D87B0B951 /* Pods-MapWrapperFrameworkSwift_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = ZXUM93UMJ2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -532,6 +537,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5328D6BBA7BC05DD9EBEFE92 /* Pods-MapWrapperFrameworkSwift_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = ZXUM93UMJ2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

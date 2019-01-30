@@ -1,8 +1,12 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/MapWrapperFrameworkSwift"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/BaiduMapKit/BaiduMapKit"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BaiduMapKit" "${PODS_ROOT}/Headers/Public/MapFramework"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/MapFramework" "${PODS_CONFIGURATION_BUILD_DIR}/MapWrapperFrameworkSwift" "${PODS_ROOT}/BaiduMapKit/BaiduMapKit/thirdlibs"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/BaiduMapKit" -isystem "${PODS_ROOT}/Headers/Public/MapFramework" -fmodule-map-file="${PODS_ROOT}/Headers/Public/MapFramework/MapFramework.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift.modulemap"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"sqlite3.0" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreTelephony" -framework "MobileCoreServices" -framework "OpenGLES" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration"
+OTHER_SWIFT_FLAGS = $(inherited) -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/MapFramework/MapFramework.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift.modulemap"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
 PODS_ROOT = ${SRCROOT}/Pods
+SWIFT_INCLUDE_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/MapWrapperFrameworkSwift"

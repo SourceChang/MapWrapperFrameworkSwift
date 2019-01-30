@@ -7,12 +7,33 @@
 
 
 import UIKit
+import MapFramework
 
 
-class MapWrapperView: UIView {
-
+public class MapWrapperView: UIView {
     
     
+    weak var mapView: SCMapView!
+
+    
+    public override init(frame: CGRect) {
+        super.init(frame: frame)
+        
+        commonInit()
+    }
+    
+    
+    public required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        
+        commonInit()
+    }
+    
+    
+    private func commonInit() {
+        let mapView = SCMapView(frame: bounds)
+        addSubview(mapView)
+    }
     
 
 }

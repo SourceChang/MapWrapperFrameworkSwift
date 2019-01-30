@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A0F1C99C7CF62B9B743B27E374FC0AA1"
+               BlueprintIdentifier = "1801D37263ACAAB21D011E8CD56E4EA0"
                BlueprintName = "MapWrapperFrameworkSwift"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "MapWrapperFrameworkSwift.framework">
+               BuildableName = "libMapWrapperFrameworkSwift.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
