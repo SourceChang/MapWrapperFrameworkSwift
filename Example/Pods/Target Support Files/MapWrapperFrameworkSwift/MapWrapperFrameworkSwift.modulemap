@@ -1,0 +1,6 @@
+framework module MapWrapperFrameworkSwift {
+  umbrella header "MapWrapperFrameworkSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

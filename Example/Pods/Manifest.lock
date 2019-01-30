@@ -1,0 +1,16 @@
+PODS:
+  - MapWrapperFrameworkSwift (0.1.0)
+
+DEPENDENCIES:
+  - MapWrapperFrameworkSwift (from `../`)
+
+EXTERNAL SOURCES:
+  MapWrapperFrameworkSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MapWrapperFrameworkSwift: 1102632bdd9501841d983f23c4bd0ed77e386357
+
+PODFILE CHECKSUM: b7291b9b25094255049216a9a77b7263c3a2614a
+
+COCOAPODS: 1.5.3

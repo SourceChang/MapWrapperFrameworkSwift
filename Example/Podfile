@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MapWrapperFrameworkSwift_Example' do
+  pod 'MapWrapperFrameworkSwift', :path => '../'
+
+  target 'MapWrapperFrameworkSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
